@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Rubik Wet Paint', cursive;
+  color: black; }
+
+header h1:hover {
+  color: darkolivegreen; }
+
+nav h1 {
+  text-align: center;
+  font-size: 27px;
+  color: black; }
+
+nav ul {
+  text-align: center;
+  height: 60px; }
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+  display: flex;
+  height: 10px;
+  margin: 20px; }
+
+nav a:hover {
+  color: blueviolet; }
+
+nav li {
+  display: inline-block; }
+
+footer {
+  background: white;
+  height: auto;
+  width: 100vw;
+  font-family: open sans;
+  padding-top: 40px;
+  color: black; }
+  footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+  footer .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem; }
+  footer .footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px; }
+  footer .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0; }
+  footer .socials li {
+    margin: 0 10px; }
+  footer .socials a {
+    text-decoration: none;
+    color: #ffff; }
+  footer .socials a i {
+    font-size: 1.1rem; }
+  footer .socials a:hover i {
+    color: aqua; }
+
+section {
+  border: 7px solid; }
+  section .til1h1 {
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center; }
+  section .til2h1 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 35px; }
+
+div .formulario {
+  background-color: white;
+  border: 7px solid;
+  padding: 4px;
+  margin: 7px; }
+
+div h1 {
+  text-align: center; }
+
+div h3 {
+  text-align: center; }
+
+div form {
+  text-align: center;
+  height: auto; }
+
+.princ1 div {
+  background-color: white;
+  padding: 3em; }
+
+.princ1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(120px, auto);
+  gap: 7px; }
+
+.princ1 :hover {
+  border: 4px solid #9400d3; }
+
+h2 {
+  text-align: center;
+  font-size: 49px;
+  font-family: 'Rubik Wet Paint', cursive; }
+
+.princ2 div {
+  background-color: white;
+  padding: 3em; }
+
+.princ2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(120px, auto);
+  gap: 7px; }
+
+.princ2 :hover {
+  border: 4px solid darkviolet; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+          Eventos T.C
+        </h1>
+     <nav>
+         <ul>
+             <li><a href="../index.html">Inicio</a></li>
+             <li><a href="./sobrenosotros.html">Sobre nosotros</a></li>
+             <li><a href="./contactanos.html">Contactanos</a></li>
+         </ul>
+     </nav>
+    </header>
+        <div class="formulariocont">
+    
+            <div class="formulario">      
+              <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+        
+        
+                  <form action="submeter-formulario.php" method="post">       
+        
+                    
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                      
+                        <p>
+                          <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+                    
+                        <p>
+                          <label for="telefone" class="colocar_telefono">Teléfono
+                          </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>        
+                      
+                        <p>
+                          <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>    
+                      
+                        <p>
+                          <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                          </label>                     
+                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                        </p>                    
+                      
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>          
+                    
+                  </form>
+            </div>  
+          </div>
+        <footer>
+            <div class="footer-content">
+                <h3>Eventos T.C</h3>
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sunt molestias alias rem neque illum quas ullam unde porro, harum sed laboriosam aspernatur excepturi aperiam eveniet! Dolore natus dolorem veritatis?</P>
+                <ul class="socials">
+                <li><a href="#"></a><i class="fa fa-facebook"></i></li>
+                <li><a href="#"></a><i class="fa fa-instagram"></i></li>
+                <li><a href="#"></a><i class="fa fa-twitter"></i></li>
+                </ul>
+               </div>
+               <div class="footer-bottom">
+                   <p>copyright &copy;2022 code0pacity designed by <span>nethum</span></p>
+               </div>
+</body>
+</html>

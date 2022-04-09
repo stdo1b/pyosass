@@ -1,0 +1,15 @@
+.princ1 div{
+    background-color: white;
+   padding: 3em;
+   }
+   .princ1{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(120px, auto);
+   
+    gap: 7px;
+
+   }
+    .princ1 :hover{      
+    border: 4px solid #9400d3;
+}

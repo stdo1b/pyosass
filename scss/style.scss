@@ -1,0 +1,16 @@
+@import "nav";
+@import "footer";
+@import "section";
+@import "formulario";
+@import "texto01";
+@import "texto02";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
